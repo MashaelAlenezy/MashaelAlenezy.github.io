@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speed Reader</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" integrity="sha512-J9QfbPuFlqGD2CYVCa6zn8/7PEgZnGpM5qtFOBZgwujjDnG5w5Fjx46YzqvIh/ORstcj7luStvvIHkisQi5SKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container stack-md">
+    <!-- Header -->
+    <div class="header">
+      <h1><span class="badge"><i class="fa-solid fa-rocket"></i> Mega Goal</span> — Speed Reader</h1>
+      <div class="right">
+        <a href="how.html" class="btn btn-secondary btn-ghost" id="statsBtn"><i class="fa fa-question-circle"></i> How it works</a>
+      </div>
+    </div>
+
+      <div class="panel">
+        <h2>
+          <span>Select Your Passage</span> 
+          <span class="subtle">Available content • <b>1 Unit/s × All Texts</b> each</span>
+        </h2>
+        <div class="divider"></div>
+
+        <div class="stack-md">
+          <div class="form-group">
+            <label class="label" for="unit"><i class="fa-solid fa-layer-group"></i> Unit</label>
+            <select id="unit">
+              <option value="u1">Unit 1: Big Changes</option>
+              <option value="u2">Unit 2: Careers</option>
+              <option value="u3">Unit 3: What Will Be, Will Be</option>
+              <option value="u4">Unit 4: The Art of Advertising</option>
+              <option value="u5">Unit 5: Did You Hurt Yourself?</option>
+              <option value="u6">Unit 6: Take My Advice</option>
+            <option value="u7">Unit 7: You’ve Got Mail!</option>
+              <option value="u8">Unit 8: Wishful Thinking</option>
+              <option value="u9">Unit 9: Complaints, Complaints</option>
+              <option value="u10">Unit 10: I Wonder What Happened</option>
+              <option value="u11">Unit 11: If It Hadn’t Happened</option>
+              <option value="u12">Unit 12: What They Said</option>
+
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="label" for="text"><i class="fa-solid fa-book-open"></i> Text</label>
+            <select id="text">
+              <option value="">Choose Text</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="label" for="wpm"><i class="fa-solid fa-gauge-high"></i> Speed (WPM)</label>
+            <input id="wpm" class="range" type="range" min="60" max="250" step="10" value="60">
+            <div><span class="wpm" id="wpmOut">200</span> WPM 
+                <!-- <span class="subtle">(Battery & ACU friendly)</span> -->
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="label"><i class="fa-solid fa-volume-high"></i> Speak Text (optional)</label>
+            <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+              <label class="toggle" title="Speak text">
+                <input type="checkbox" id="ttsToggle"><span class="knob"></span>
+              </label>
+              <select id="voice" disabled>
+                <option>Default</option>
+              </select>
+              <span class="pill">Browser TTS</span>
+            </div>
+          </div>
+
+          <div class="footer-actions">
+            <button class="btn btn-primary" id="startBtn"><i class="fa-solid fa-play"></i> Start</button>
+            <button class="btn btn-secondary" id="pauseBtn" disabled><i class="fa-solid fa-pause"></i> Pause</button>
+            <button class="btn btn-default" id="resetBtn"><i class="fa-solid fa-stop"></i> Reset</button>
+            <span class="pill" id="statusPill">Ready</span>
+          </div>
+        </div>
+      </div>
+
+    <div class="panel">
+      <div class="flasher" id="flasher">
+        <div class="word" id="word">Ready?</div>
+      </div>
+      <div class="footer-actions" style="margin-top:12px;">
+        <span class="pill">Word <b id="idx">0</b>/<b id="total">0</b></span>
+        <span class="pill">Elapsed: <b id="elapsed">0.0s</b></span>
+        <span class="pill">ETA: <b id="eta">—</b></span>
+        <button class="btn btn-success" id="celebrateBtn"><i class="fa-solid fa-check-double"></i> Celebrate</button>
+      </div>
+    </div>
+
+    <footer>
+<p>Made with 💙 by <a href="contact.html">Mashael Alanezy</a> • All rights reserved to Mashael Alenezy 🎉</p>
+<p>📚 The passages belong to their original authors — we’re just borrowing them for learning fun! No ownership claimed.</p>
+</footer>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
