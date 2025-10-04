@@ -1,87 +1,157 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <title>مشاعل العنزي</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌟 Mashael Alanezy Work</title>
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
-  <!-- Bootstrap core CSS -->
-  <link href="assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  :root {
+    --primary: #4a90e2;
+    --secondary: #a259ff;
+    --success: #27ae60;
+    --warning: #f1c40f;
+    --text-color: #2c3e50;
+    --radius: 14px;
+    --font: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  }
 
-  <style>
-    * {
-      font-family: 'IBM Plex Sans Arabic', sans-serif;
-    }
+  body {
+    font-family: var(--font);
+    background: linear-gradient(180deg, #fbfbfe, #f6f9ff);
+    color: var(--text-color);
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
 
-    h4,
-    h1 {
-      font-family: 'Changa', sans-serif;
-    }
+  h1 {
+    color: var(--primary);
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
+  .grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 960px;
+    width: 100%;
+  }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
+  .card {
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 24px;
+    transition: transform .2s ease, box-shadow .2s ease;
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  }
+
+  .card i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: var(--secondary);
+  }
+
+  .btn i.fa-play {
+    color: white !important;
+  }
+.btn i {
+    font-size: 16px;;
+  }
 
 
+  .card h2 {
+    font-size: 20px;
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 16px;
+  }
+
+  .btn {
+    background: var(--primary);
+    color: white;
+    padding: 10px 16px;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  .btn:hover {
+    background: var(--secondary);
+    transform: translateY(-2px);
+  }
+
+  footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+
+  footer a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+</style>
 </head>
-
 <body>
-
-  <main>
-
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">مشاعل العنزي</h1>
-          <p class="lead text-muted">مساعد إداري، وزارة التعليم، الابتدائية ٢٣١.</p>
-          <p> صمم هذا الموقع ليكون مرجع لبعض اللوائح والأدلة والتعاميم الهامة في التعليم وشيء من أعمالي.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row  row-cols-1 row-cols-lg-3 row-cols-md-2 g-4" id="cont">
-        </div>
-
-
-      </div>
+  <h1>Mashael Alanezy — English Teacher at Zainab bint Mu'awiyah High School </h1>
+  <div class="grid">
+    <!-- Card 1 -->
+    <div class="card">
+      <i class="fa-solid fa-bolt"></i>
+      <h2>Fun Speed Reader</h2>
+      <p>Practice reading faster and more confidently — one word at a time, with a sprinkle of fun and confetti! 🎉</p>
+      <a href="speed-reader/index.html" class="btn"><i class="fa-solid fa-play"></i> Launch</a>
     </div>
 
-  </main>
-
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        مشاعل عبدالله العنزي © 2021 </p>
-      <p class="mb-1">الملفات المرفقة تابعة لمُصدريها من الوزارات الرسمية في المملكة العربية السعودية</p>
-      <p class="mb-0">جميع الحقوق محفوظه لأصحابها</p>
+    <!-- Card 2 (placeholder example for future tools) -->
+    <div class="card">
+      <i class="fa-solid fa-brain"></i>
+      <h2>Grammar Builder</h2>
+      <p>Coming soon — interactive grammar practice to strengthen your language foundation. 📘</p>
+      <a href="#" class="btn" style="background: var(--default); color: #000; cursor: not-allowed;">
+        <i class="fa-solid fa-hourglass-half"></i> Coming Soon
+      </a>
     </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <i class="fa-solid fa-headphones"></i>
+      <h2>Listening Lounge</h2>
+      <p>Future space for listening exercises and pronunciation games. 🎧</p>
+      <a href="#" class="btn" style="background: var(--default); color: #000; cursor: not-allowed;">
+        <i class="fa-solid fa-hourglass-half"></i> Coming Soon
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with 💙 by Miss Mashael • Dedicated to all Zainab bint Mu'awiyah High School students 🌟</p>
+    <p><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></p>
   </footer>
-
-
-  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
 </body>
-
 </html>
