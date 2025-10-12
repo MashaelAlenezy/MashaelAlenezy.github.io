@@ -70,7 +70,7 @@ country deserves the best.
 Our vision, grounded in our country’s
 strengths, will deliver this stability and create
 a brighter future for our country and our
-people.` ],
+people.` }],
       u2: [
         { id: 'u2t1', title: 'Text A — JobPool Has the Job for You', body: `About Us: JobPool is a privately-owned career network with branches all over the world. Since its foundation in 2000, the company
 has constantly improved its users' experience with new features and services. JobPool has been growing globally through
