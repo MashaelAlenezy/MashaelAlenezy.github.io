@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammar & Vocabulary Practice</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script> -->
+ <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+<script src="conetnt.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🧠 Grammar & Vocabulary Practice</h1>
+
+<div class="section" id="setupSection">
+  <h2>🎯 Choose Your Unit & Category</h2>
+  <div style="text-align:center;">
+    <p><strong>Unit:</strong></p>
+    <select id="unitSelect">
+        <option value="u1">Unit 1 – Big changes.</option>
+      <option value="u2">Unit 2 – Careers.</option>
+      <option value="u3">Unit 3 – What Will Be, Will Be.</option>
+    </select>
+    <p style="margin-top:20px;"><strong>Category:</strong></p>
+    <select id="categorySelect">
+      <option value="mixed">Mixed (Grammar + Vocabulary)</option>
+      <option value="grammar">Grammar Only</option>
+      <option value="vocabulary">Vocabulary Only</option>
+    </select>
+    <br><br>
+    <button class="btn" id="startBtn"><i class="fa-solid fa-play"></i> Start Quiz</button>
+  </div>
+</div>
+
+<div class="section" id="quizSection" style="display:none;">
+  <h2 id="quizTitle">Loading questions...</h2>
+  <div id="questionsContainer"></div>
+  <div style="text-align:center;margin-top:20px;">
+    <button class="btn" id="submitBtn" style="display:none;">Show My Score</button>
+  </div>
+</div>
+
+<div id="scoreBox">
+  <h3>Your Result 🎯</h3>
+  <p id="scoreText"></p>
+  <button class="btn" id="retryBtn"><i class="fa-solid fa-rotate"></i> Try Again</button>
+</div>
+
+<footer>
+  <p>Made with 💙 by Miss Mashael • Dedicated to all Zainab bint Mu'awiyah High School students 🌟</p>
+  <p><a href="index.html"><i class="fa-solid fa-arrow-left"></i> Back to Home</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
