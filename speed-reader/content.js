@@ -361,5 +361,35 @@ energetic enough. Decide what you would like to do
 again and when. Set yourself goals that are achievable
 and enjoyable. Treat yourself right!` },
       ],
+      u7: [
+        { id: 'u7t1', title: 'Text A — From Smoke Signals to Email: Keeping in Touch', body: `In ancient times, according to one story, a chain of fires on mountaintops was used to relate the news of
+the fall of Troy to people in Greece. In the past, native people in the Americas used smoke from fires to
+transmit messages. They developed a code—in which certain combinations of smoke rising had special
+meanings. For example, two parallel columns of smoke indicated the successful return of a war party.
+The ancient Greeks established lines of signal towers at mountain-tops. At each one, a large fire was lit
+to transmit a signal to the next tower, and in this way, information was passed on through the land. Also,
+almost anything that makes a noise has been used for signaling. A kind of drum talk is still used in Central
+Africa today, although few who are not natives have been able to understand it. The sender uses a drum
+that can produce a high or low tone. Because the local dialect alternates in these tones, the sender is able to
+simulate speech with the drums.
+In modern times, people have communicated by letter, telegraph, and telephone. But no one method
+has become as widespread as quickly as the use of email. The first email message took place in 1971,
+and according to its sender, Ray Tomlinson, it was probably the following: “QWERTYUIOP.” What was
+significant about that? Nothing, really. This is just the top row of keys on an English-language keyboard.
+Tomlinson was just testing out the system and using a nonsense message. He had no concept that he was
+going to start a revolution in communication.
+Tomlinson was one of a group of scientists who were working on developing better computers. The
+scientists at his site were able to send a message to a “mailbox” on the computer on their site. Other
+scientists could view the messages in the mailbox. But there were other computers at other sites where
+scientists were working on the same project. Tomlinson’s idea was to figure out a way to deliver messages
+to mailboxes on those remote computers. He used the @ sign to identify messages that were headed out
+of the local machine to the more distant ones. That was the start of the emailing systems that we still use
+today.
+At first, the number of people on email was small, but by the end of the 20th century, there were 263 million
+email boxes. In the 21st century, that figure has grown to over 4 billion, and the functions of email services
+in the future will become more and more diversified. And text messaging on cell phones is also increasing,
+so people can, in effect, be in constant touch with people who are long distances away.` },
+      ]
 
     };
+
