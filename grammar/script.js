@@ -41,7 +41,7 @@ document.getElementById("startBtn").onclick=()=>{
   let qSet=[];
   if(category==="mixed") qSet=[...CONTENT[unit].grammar,...CONTENT[unit].vocabulary];
   else qSet=[...CONTENT[unit][category]];
-  activeQuestions=shuffle(qSet).slice(0,Math.min(10,qSet.length));
+  activeQuestions=shuffle(qSet).slice(0,Math.min(qSet.length,qSet.length));
   document.getElementById("setupSection").style.display="none";
   document.getElementById("quizSection").style.display="block";
   setupQuiz();
@@ -98,4 +98,5 @@ document.getElementById("submitBtn").onclick=()=>{
 document.getElementById("retryBtn").onclick=()=>{
   document.getElementById("scoreBox").style.display="none";
   document.getElementById("setupSection").style.display="block";
+
 };
