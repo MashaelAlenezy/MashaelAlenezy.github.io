@@ -90,5 +90,122 @@ const CONTENT = {
             { question: "to gather", options: ["A) to come together", "B) to separate", "C) to run", "D) to cook"], correct: "A" },
             { question: "to witness", options: ["A) to give evidence", "B) to help", "C) to see an event", "D) to read"], correct: "C" },
         ]
-    }
+    },
+    u4: {
+    grammar: [
+        // Passive voice
+        { question: "Smartphones _____ in this factory.", options: ["A) make", "B) are made", "C) are making", "D) made"], correct: "B" },
+        { question: "The classrooms _____ every morning.", options: ["A) cleaned", "B) are cleaned", "C) is cleaned", "D) were cleaned"], correct: "B" },
+        { question: "The new mall _____ next month.", options: ["A) opened", "B) is opened", "C) will be opened", "D) was opened"], correct: "C" },
+        { question: "English _____ all over the world.", options: ["A) used", "B) is used", "C) uses", "D) was used"], correct: "B" },
+        { question: "A new model _____ by the company.", options: ["A) has been produced", "B) produced", "C) was producing", "D) produces"], correct: "A" },
+        { question: "This stadium _____ in 2015.", options: ["A) builds", "B) was built", "C) is built", "D) has built"], correct: "B" },
+        { question: "The computers _____ now.", options: ["A) fix", "B) fixed", "C) are being fixed", "D) were fixed"], correct: "C" },
+        { question: "The package _____.", options: ["A) delivered", "B) is delivering", "C) has been delivered", "D) was delivering"], correct: "C" },
+        { question: "The book _____ soon.", options: ["A) will publish", "B) published", "C) will be published", "D) is publish"], correct: "C" },
+        { question: "This show _____ every weekend.", options: ["A) watched", "B) watches", "C) is watched", "D) was watched"], correct: "C" },
+
+        // Choose the correct answer (mixed grammar)
+        { question: "English is _____ here.", options: ["A) speak", "B) spoke", "C) is speaking", "D) spoken"], correct: "D" },
+        { question: "Our kitchen _____ decorated at the moment.", options: ["A) is", "B) is being", "C) being", "D) was being"], correct: "B" },
+
+        { question: "They make toys. Toys _____ by them.", options: ["A) are made", "B) were made", "C) are making", "D) they are made"], correct: "A" },
+
+        { question: "A house _____ by them.", options: ["A) will be built", "B) is built", "C) was built", "D) will built"], correct: "A" },
+        { question: "The letter _____ by him.", options: ["A) had written", "B) had been written", "C) was written", "D) has been written"], correct: "B" },
+
+        { question: "The computer _____ by him.", options: ["A) is fixed", "B) was being fixed", "C) is being fixed", "D) being fixed"], correct: "C" },
+        { question: "The work _____ by them.", options: ["A) has been finished", "B) is finished", "C) was finished", "D) have been finished"], correct: "A" },
+
+        // Comparative / superlative
+        { question: "Sara is _____ than Mona.", options: ["A) tall", "B) taller", "C) tallest", "D) the taller"], correct: "B" },
+        { question: "My bag is _____ than yours.", options: ["A) big", "B) bigger", "C) the biggest", "D) more big"], correct: "B" },
+        { question: "This phone is _____ than my old one.", options: ["A) expensive", "B) more expensive", "C) the most expensive", "D) expensiver"], correct: "B" },
+        { question: "Ali is the _____ student in the class.", options: ["A) smart", "B) smarter", "C) smartest", "D) more smart"], correct: "C" },
+        { question: "This laptop is the _____ in the store.", options: ["A) more fast", "B) fastest", "C) the most fast", "D) faster"], correct: "B" },
+        { question: "Mount Everest is the _____ mountain in the world.", options: ["A) higher", "B) highest", "C) high", "D) more high"], correct: "B" },
+
+        // As / As Not as
+        { question: "Sara is ___ tall ___ her sister.", options: ["A) as / as", "B) not as / as", "C) as / not as", "D) not as / not as"], correct: "A" },
+        { question: "This book is ___ interesting ___ the movie.", options: ["A) as / not as", "B) not as / as", "C) as / as", "D) not as / not as"], correct: "C" },
+
+        // Look / smell / taste / sound like
+        { question: "What does your father ___?", options: ["A) look like", "B) looks like", "C) taste like", "D) tastes like"], correct: "A" },
+        { question: "This cake ___ chocolate.", options: ["A) looks like", "B) tastes like", "C) smell like", "D) smells like"], correct: "B" },
+        { question: "The roses ___ perfume.", options: ["A) look like", "B) tastes like", "C) smell like", "D) smells like"], correct: "C" },
+        { question: "That girl ___ her mother.", options: ["A) looks like", "B) look like", "C) tastes like", "D) smell like"], correct: "A" },
+        { question: "Your voice ___ my sister’s.", options: ["A) sounds like", "B) sound like", "C) listens like", "D) hears like"], correct: "A" },
+        { question: "This noise ___ a cat crying.", options: ["A) sounds like", "B) sound like", "C) smells like", "D) looks like"], correct: "A" },
+        { question: "The music ___ birds singing.", options: ["A) sounds like", "B) listens like", "C) tastes like", "D) hears like"], correct: "A" },
+        { question: "That engine ___ it’s broken.", options: ["A) sounds like", "B) smells like", "C) looks like", "D) sound like"], correct: "A" },
+        { question: "This word ___ another English word I know.", options: ["A) sounds like", "B) smells like", "C) sound like", "D) looks like"], correct: "A" },
+        { question: "He ___ he is tired.", options: ["A) sounds like", "B) sound like", "C) hears like", "D) looks like"], correct: "A" },
+
+        // Demonstratives
+        { question: "___ is my phone here.", options: ["A) These", "B) This", "C) Those", "D) That"], correct: "B" },
+        { question: "___ pens here are blue.", options: ["A) These", "B) This", "C) That", "D) Those"], correct: "A" },
+        { question: "___ bag over there is mine.", options: ["A) These", "B) This", "C) That", "D) Those"], correct: "C" },
+        { question: "___ apples over there are sour.", options: ["A) This", "B) These", "C) That", "D) Those"], correct: "D" },
+        { question: "___ is my teacher over there.", options: ["A) This", "B) That", "C) These", "D) Those"], correct: "B" },
+        { question: "___ books here are new.", options: ["A) This", "B) That", "C) These", "D) Those"], correct: "C" },
+
+        // Imperatives
+        { question: "___ the window, please.", options: ["A) Close", "B) Closing", "C) Closes", "D) To close"], correct: "A" },
+        { question: "___ late again!", options: ["A) Not be", "B) Don’t be", "C) You don’t be", "D) Stop be"], correct: "B" },
+        { question: "___ your hands.", options: ["A) To wash", "B) Washing", "C) Wash", "D) Washes"], correct: "C" },
+        { question: "___ quiet in class.", options: ["A) Be", "B) Being", "C) To be", "D) Are"], correct: "A" },
+        { question: "___ your phone off.", options: ["A) Turn", "B) Turning", "C) To turn", "D) Turns"], correct: "A" },
+        { question: "___ here!", options: ["A) Come", "B) Comes", "C) Coming", "D) To come"], correct: "A" },
+
+        // Whose
+        { question: "___ shoes are these?", options: ["A) Who", "B) Whose", "C) Who’s", "D) Whom"], correct: "B" },
+        { question: "___ car is that?", options: ["A) Who", "B) Whose", "C) Who’s", "D) Whom"], correct: "B" },
+        { question: "___ bag is on the desk?", options: ["A) Who", "B) Whose", "C) Who’s", "D) Whom"], correct: "B" },
+        { question: "___ jacket is this?", options: ["A) Who’s", "B) Whose", "C) Who", "D) Whom"], correct: "B" },
+        { question: "___ phone is ringing?", options: ["A) Who", "B) Whose", "C) Who’s", "D) Whom"], correct: "B" },
+        { question: "___ notebook is that?", options: ["A) Who", "B) Whose", "C) Who’s", "D) Who"], correct: "B" },
+
+        // One/Ones
+        { question: "I’ll take the blue ___, not the red one.", options: ["A) one", "B) ones", "C) them", "D) it"], correct: "A" },
+        { question: "Which glasses do you like? The black ___.", options: ["A) one", "B) ones", "C) it", "D) that"], correct: "B" },
+        { question: "Big pizza or small ___?", options: ["A) one", "B) ones", "C) them", "D) it"], correct: "A" },
+        { question: "I prefer soft pillows, not hard ___.", options: ["A) one", "B) those", "C) ones", "D) them"], correct: "C" },
+        { question: "This pen is dry. Give me a new ___.", options: ["A) it", "B) one", "C) ones", "D) that"], correct: "B" },
+        { question: "Which shoes do you like? The brown ___.", options: ["A) one", "B) ones", "C) that", "D) them"], correct: "B" },
+
+        // Possessives
+        { question: "This is my book. That one is ___.", options: ["A) my", "B) me", "C) mine", "D) myself"], correct: "C" },
+        { question: "They brought ___ dog.", options: ["A) theirs", "B) their", "C) them", "D) they"], correct: "B" },
+        { question: "Is this bag ___?", options: ["A) you", "B) yours", "C) your", "D) yourself"], correct: "B" },
+        { question: "That pencil is ___.", options: ["A) hers", "B) her", "C) she", "D) herself"], correct: "A" },
+        { question: "We love ___ teacher.", options: ["A) ours", "B) our", "C) us", "D) we"], correct: "B" },
+        { question: "The house on the corner is ___.", options: ["A) our", "B) us", "C) ours", "D) we"], correct: "C" }
+    ],
+
+    vocabulary: [
+        { question: "inconceivable", options: ["A) impossible to imagine", "B) not convenient", "C) limited", "D) heavy"], correct: "A" },
+        { question: "impractical", options: ["A) not convenient", "B) stylish", "C) cheap", "D) safe"], correct: "A" },
+        { question: "limited", options: ["A) very big", "B) kept within a boundary", "C) expensive", "D) modern"], correct: "B" },
+        { question: "status symbol", options: ["A) a sign of high social standing", "B) a toy", "C) a rule", "D) a job"], correct: "A" },
+        { question: "cash in", options: ["A) lose money", "B) make money from", "C) spend money", "D) save money"], correct: "B" },
+        { question: "franchise", options: ["A) small store", "B) a big corporation/branch", "C) a tool", "D) a card"], correct: "B" },
+        { question: "revolutionize", options: ["A) greatly change", "B) destroy", "C) paint", "D) copy"], correct: "A" },
+
+        // Fill in the blanks vocabulary
+        { question: "This phone is _____, so you can carry it easily.", options: ["A) portable", "B) bulky", "C) wireless", "D) brick"], correct: "A" },
+        { question: "My old car is a _____; everyone loves its style.", options: ["A) triumph", "B) classic", "C) smooth", "D) option"], correct: "B" },
+        { question: "A _____ is small and easy to park.", options: ["A) brick", "B) compact car", "C) provider", "D) wireless"], correct: "B" },
+        { question: "The internet _____ came to fix the Wi-Fi.", options: ["A) fuel", "B) provider", "C) option", "D) classic"], correct: "B" },
+        { question: "Gasoline is a type of _____ for cars.", options: ["A) smooth", "B) bulky", "C) fuel", "D) brick"], correct: "C" },
+        { question: "My bag is too _____; it’s very big and heavy.", options: ["A) bulky", "B) portable", "C) smooth", "D) wireless"], correct: "A" },
+        { question: "Press the _____ to make the bike go faster.", options: ["A) pedal", "B) option", "C) brick", "D) triumph"], correct: "A" },
+        { question: "The new phone screen is very _____.", options: ["A) bulky", "B) smooth", "C) classic", "D) brick"], correct: "B" },
+        { question: "The earphones are _____, no cables needed.", options: ["A) wireless", "B) compact", "C) bulky", "D) brick"], correct: "A" },
+        { question: "Winning the game was a big _____.", options: ["A) brick", "B) option", "C) triumph", "D) provider"], correct: "C" },
+        { question: "You have another _____ if you don’t like this one.", options: ["A) option", "B) classic", "C) brick", "D) pedal"], correct: "A" },
+        { question: "The house was built with red _____.", options: ["A) bricks", "B) pedals", "C) fuels", "D) classics"], correct: "A" }
+    ]
+}
+
+
 };
