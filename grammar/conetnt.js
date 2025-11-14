@@ -94,16 +94,26 @@ const CONTENT = {
     u4: {
     grammar: [
         // Passive voice
-        { question: "Smartphones _____ in this factory.", options: ["A) make", "B) are made", "C) are making", "D) made"], correct: "B" },
-        { question: "The classrooms _____ every morning.", options: ["A) cleaned", "B) are cleaned", "C) is cleaned", "D) were cleaned"], correct: "B" },
-        { question: "The new mall _____ next month.", options: ["A) opened", "B) is opened", "C) will be opened", "D) was opened"], correct: "C" },
-        { question: "English _____ all over the world.", options: ["A) used", "B) is used", "C) uses", "D) was used"], correct: "B" },
-        { question: "A new model _____ by the company.", options: ["A) has been produced", "B) produced", "C) was producing", "D) produces"], correct: "A" },
-        { question: "This stadium _____ in 2015.", options: ["A) builds", "B) was built", "C) is built", "D) has built"], correct: "B" },
-        { question: "The computers _____ now.", options: ["A) fix", "B) fixed", "C) are being fixed", "D) were fixed"], correct: "C" },
-        { question: "The package _____.", options: ["A) delivered", "B) is delivering", "C) has been delivered", "D) was delivering"], correct: "C" },
-        { question: "The book _____ soon.", options: ["A) will publish", "B) published", "C) will be published", "D) is publish"], correct: "C" },
-        { question: "This show _____ every weekend.", options: ["A) watched", "B) watches", "C) is watched", "D) was watched"], correct: "C" },
+        // Passive voice (with original active sentence displayed)
+{ question: "They make smartphones in this factory. → Smartphones _____ in this factory.", options: ["A) make", "B) are made", "C) are making", "D) made"], correct: "B" },
+
+{ question: "Someone cleans the classrooms every morning. → The classrooms _____ every morning.", options: ["A) cleaned", "B) are cleaned", "C) is cleaned", "D) were cleaned"], correct: "B" },
+
+{ question: "They will open the new mall next month. → The new mall _____ next month.", options: ["A) opened", "B) is opened", "C) will be opened", "D) was opened"], correct: "C" },
+
+{ question: "People use English all over the world. → English _____ all over the world.", options: ["A) used", "B) is used", "C) uses", "D) was used"], correct: "B" },
+
+{ question: "The company has produced a new model. → A new model _____ by the company.", options: ["A) has been produced", "B) produced", "C) was producing", "D) produces"], correct: "A" },
+
+{ question: "They built this stadium in 2015. → This stadium _____ in 2015.", options: ["A) builds", "B) was built", "C) is built", "D) has built"], correct: "B" },
+
+{ question: "They are fixing the computers now. → The computers _____ now.", options: ["A) fix", "B) fixed", "C) are being fixed", "D) were fixed"], correct: "C" },
+
+{ question: "Someone has delivered the package. → The package _____.", options: ["A) delivered", "B) is delivering", "C) has been delivered", "D) was delivering"], correct: "C" },
+
+{ question: "They will publish the book soon. → The book _____ soon.", options: ["A) will publish", "B) published", "C) will be published", "D) is publish"], correct: "C" },
+
+{ question: "People watch this show every weekend. → This show _____ every weekend.", options: ["A) watched", "B) watches", "C) is watched", "D) was watched"], correct: "C" },
 
         // Choose the correct answer (mixed grammar)
         { question: "English is _____ here.", options: ["A) speak", "B) spoke", "C) is speaking", "D) spoken"], correct: "D" },
@@ -209,3 +219,4 @@ const CONTENT = {
 
 
 };
+
