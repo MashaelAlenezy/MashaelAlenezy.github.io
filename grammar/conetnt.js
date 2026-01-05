@@ -1,7 +1,4 @@
 const CONTENT = {
-
-
-    {
   "u1": {
     "grammar": [
       {
@@ -1836,5 +1833,5 @@ const CONTENT = {
       }
     ]
   }
-}
 };
+
