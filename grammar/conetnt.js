@@ -215,8 +215,112 @@ const CONTENT = {
         { question: "You have another _____ if you don’t like this one.", options: ["A) option", "B) classic", "C) brick", "D) pedal"], correct: "A" },
         { question: "The house was built with red _____.", options: ["A) bricks", "B) pedals", "C) fuels", "D) classics"], correct: "A" }
     ]
+}, u5: {
+grammar: [// Grammar Unit 5–6 (from attached file)
+{
+  question: "You _____ stop at the traffic lights.",
+  options: ["A) must", "B) should", "C) could", "D) might"],
+  correct: "A"
+},
+{
+  question: "It is freezing outside! You _____ wear a warmer coat.",
+  options: ["A) had better", "B) might", "C) could", "D) better had"],
+  correct: "A"
+},
+{
+  question: "I know the new student _____.",
+  options: ["A) well", "B) good", "C) better", "D) best"],
+  correct: "A"
+},
+{
+  question: "I haven’t been to Paris.",
+  options: ["A) So, have I", "B) So, do I", "C) Neither have I", "D) Neither do I"],
+  correct: "C"
+},
+{
+  question: "I don’t like spicy food.",
+  options: ["A) So do I", "B) Neither do I", "C) So have I", "D) Neither have I"],
+  correct: "B"
+},
+{
+  question: "We have _____ of homework today.",
+  options: ["A) a few", "B) a lot", "C) much", "D) many"],
+  correct: "B"
+},
+{
+  question: "He fixed the problem _____ without any help.",
+  options: ["A) himself", "B) herself", "C) myself", "D) themselves"],
+  correct: "A"
+},
+{
+  question: "She looked at _____ in the mirror.",
+  options: ["A) herself", "B) him", "C) them", "D) they"],
+  correct: "A"
+},
+{
+  question: "I have _____ close friends. Two or three.",
+  options: ["A) a lot of", "B) a few", "C) much", "D) a little"],
+  correct: "B"
+},
+{
+  question: "We cooked dinner by _____ last night.",
+  options: ["A) ourselves", "B) myself", "C) herself", "D) themselves"],
+  correct: "A"
+},
+{
+  question: "The team played _____ and lost the match.",
+  options: ["A) badly", "B) worth", "C) worst", "D) bad"],
+  correct: "A"
+},
+{
+  question: "She was late _____ there was a traffic jam.",
+  options: ["A) because", "B) so", "C) neither", "D) either"],
+  correct: "A"
+},
+{
+  question: "Khalid is very _____ at tennis, he won the game.",
+  options: ["A) goodly", "B) well", "C) good", "D) best"],
+  correct: "C"
+},
+{
+  question: "I am a careful driver.",
+  options: ["A) Neither am I", "B) So am I", "C) Neither do I", "D) So do I"],
+  correct: "B"
+},
+{
+  question: "_____ tomatoes do we need?",
+  options: ["A) How much", "B) How long", "C) How many", "D) What"],
+  correct: "C"
+},
+{
+  question: "I don’t know _____ students in this class because I am a newcomer.",
+  options: ["A) many", "B) much", "C) a little", "D) little"],
+  correct: "A"
+},
+{
+  question: "_____ do you weigh?",
+  options: ["A) How many", "B) How much", "C) How", "D) What"],
+  correct: "B"
+},
+{
+  question: "He forgot his keys, _____ he couldn’t get into the house.",
+  options: ["A) because", "B) so", "C) neither", "D) either"],
+  correct: "B"
+},
+{
+  question: "A: Do you take sugar in coffee? B: Just _____. Half a spoonful.",
+  options: ["A) a little", "B) a few", "C) few", "D) many"],
+  correct: "A"
+},
+{
+  question: "_____ fruit do you usually eat?",
+  options: ["A) How much", "B) How many", "C) How", "D) What"],
+  correct: "B"
+}
+]
 }
 
 
 };
+
 
