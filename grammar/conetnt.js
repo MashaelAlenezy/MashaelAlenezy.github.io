@@ -1832,6 +1832,170 @@ const CONTENT = {
         "correct": "B"
       }
     ]
-  }
+  }, 
+  "u6": {
+  "grammar": [
+    {
+      "question": "I am interested in _____ English.",
+      "options": ["A) learn", "B) learning", "C) learned", "D) learns"],
+      "correct": "B"
+    },
+    {
+      "question": "She is good at _____.",
+      "options": ["A) swim", "B) swimming", "C) swims", "D) swam"],
+      "correct": "B"
+    },
+    {
+      "question": "He apologized for _____ late.",
+      "options": ["A) arrive", "B) arriving", "C) arrived", "D) arrives"],
+      "correct": "B"
+    },
+    {
+      "question": "_____ it was raining, we went out.",
+      "options": ["A) In spite of", "B) Although", "C) Because", "D) So"],
+      "correct": "B"
+    },
+    {
+      "question": "_____ the rain, we enjoyed the trip.",
+      "options": ["A) Although", "B) Even though", "C) In spite of", "D) Because"],
+      "correct": "C"
+    },
+    {
+      "question": "_____ he was tired, he studied.",
+      "options": ["A) In spite of", "B) Although", "C) So", "D) And"],
+      "correct": "B"
+    },
+    {
+      "question": "I will call you when I _____ home.",
+      "options": ["A) will arrive", "B) arrive", "C) arrived", "D) arriving"],
+      "correct": "B"
+    },
+    {
+      "question": "I’ll text you as soon as I _____.",
+      "options": ["A) will arrive", "B) arrive", "C) arrived", "D) arriving"],
+      "correct": "B"
+    }
+  ]
+},
+
+"u7": {
+  "grammar": [
+    {
+      "question": "I _____ play outside when I was young.",
+      "options": ["A) used to", "B) use to", "C) using", "D) uses"],
+      "correct": "A"
+    },
+    {
+      "question": "He _____ have long hair (now he doesn’t).",
+      "options": ["A) used to", "B) would", "C) will", "D) is"],
+      "correct": "A"
+    },
+    {
+      "question": "There _____ a book on the table.",
+      "options": ["A) are", "B) is", "C) be", "D) am"],
+      "correct": "B"
+    },
+    {
+      "question": "There _____ many students.",
+      "options": ["A) is", "B) are", "C) be", "D) was"],
+      "correct": "B"
+    },
+    {
+      "question": "There _____ a problem.",
+      "options": ["A) are", "B) is", "C) were", "D) am"],
+      "correct": "B"
+    },
+    {
+      "question": "_____ sun is very hot.",
+      "options": ["A) A", "B) The", "C) An", "D) No"],
+      "correct": "B"
+    },
+    {
+      "question": "I went to _____ school near my house.",
+      "options": ["A) a", "B) the", "C) an", "D) no"],
+      "correct": "B"
+    }
+  ]
+},
+
+"u8": {
+  "grammar": [
+    {
+      "question": "The car needs to be _____.",
+      "options": ["A) fixed", "B) fixing", "C) fixes", "D) fix"],
+      "correct": "A"
+    },
+    {
+      "question": "The room needs to be _____.",
+      "options": ["A) clean", "B) cleaned", "C) cleaning", "D) cleans"],
+      "correct": "B"
+    },
+    {
+      "question": "The phone needs to be _____.",
+      "options": ["A) repair", "B) repaired", "C) repairing", "D) repairs"],
+      "correct": "B"
+    },
+    {
+      "question": "I had my hair _____ yesterday.",
+      "options": ["A) cutting", "B) cut", "C) cuts", "D) cutted"],
+      "correct": "B"
+    },
+    {
+      "question": "She got her car _____ last week.",
+      "options": ["A) fix", "B) fixed", "C) fixing", "D) fixes"],
+      "correct": "B"
+    },
+    {
+      "question": "We had the house _____ last month.",
+      "options": ["A) paint", "B) painted", "C) painting", "D) paints"],
+      "correct": "B"
+    },
+    {
+      "question": "The _____ window needs fixing.",
+      "options": ["A) break", "B) broken", "C) breaking", "D) broke"],
+      "correct": "B"
+    },
+    {
+      "question": "He wore a _____ shirt.",
+      "options": ["A) tear", "B) torn", "C) tearing", "D) tore"],
+      "correct": "B"
+    },
+    {
+      "question": "If I had money, I _____ travel.",
+      "options": ["A) will", "B) would", "C) do", "D) did"],
+      "correct": "B"
+    },
+    {
+      "question": "If she studied, she _____ pass.",
+      "options": ["A) would", "B) will", "C) is", "D) does"],
+      "correct": "A"
+    },
+    {
+      "question": "If we had time, we _____ go out.",
+      "options": ["A) would", "B) will", "C) go", "D) went"],
+      "correct": "A"
+    },
+    {
+      "question": "I wish I _____ more time.",
+      "options": ["A) have", "B) had", "C) having", "D) has"],
+      "correct": "B"
+    },
+    {
+      "question": "I wish I _____ help you.",
+      "options": ["A) can", "B) could", "C) will", "D) do"],
+      "correct": "B"
+    },
+    {
+      "question": "There is _____ water.",
+      "options": ["A) some", "B) any", "C) no", "D) many"],
+      "correct": "A"
+    },
+    {
+      "question": "There aren’t _____ apples.",
+      "options": ["A) some", "B) any", "C) no", "D) much"],
+      "correct": "B"
+    }
+  ]
+}
 };
 
