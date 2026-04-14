@@ -1833,7 +1833,7 @@ const CONTENT = {
       }
     ]
   }, 
-  "u6": {
+  "u7": {
   "grammar": [
     {
       "question": "I am interested in _____ English.",
@@ -1878,7 +1878,7 @@ const CONTENT = {
   ]
 },
 
-"u7": {
+"u8": {
   "grammar": [
     {
       "question": "I _____ play outside when I was young.",
@@ -1918,7 +1918,7 @@ const CONTENT = {
   ]
 },
 
-"u8": {
+"u9": {
   "grammar": [
     {
       "question": "The car needs to be _____.",
