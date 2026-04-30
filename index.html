@@ -5,26 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🌟 Mashael Alanezy Work</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
   :root {
     --primary: #4a90e2;
     --secondary: #a259ff;
     --success: #27ae60;
     --warning: #f1c40f;
+    --soft: #eef5ff;
     --text-color: #2c3e50;
     --radius: 14px;
     --font: "Comic Relief", system-ui, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
   }
 
   body {
     font-family: var(--font);
     background: linear-gradient(180deg, #fbfbfe, #f6f9ff);
     color: var(--text-color);
-    padding: 40px;
+    padding: 40px 20px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -34,16 +40,25 @@
 
   h1 {
     color: var(--primary);
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: clamp(28px, 4vw, 38px);
+    margin-bottom: 12px;
     text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    max-width: 750px;
+    color: #5b6b7c;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.7;
   }
 
   .grid {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    max-width: 960px;
+    max-width: 1100px;
     width: 100%;
   }
 
@@ -52,31 +67,46 @@
     border-radius: var(--radius);
     box-shadow: 0 6px 16px rgba(0,0,0,0.08);
     padding: 24px;
-    transition: transform .2s ease, box-shadow .2s ease;
+    transition: transform .25s ease, box-shadow .25s ease;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(74,144,226,0.08);
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
   }
 
   .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
   }
 
-  .card i {
-    font-size: 36px;
-    margin-bottom: 10px;
+  .card i.main-icon {
+    font-size: 38px;
+    margin-bottom: 12px;
     color: var(--secondary);
+    display: inline-block;
   }
 
-  .btn i.fa-play {
+  .btn i.fa-play,
+  .btn i.fa-arrow-up-right-from-square {
     color: white !important;
   }
-.btn i {
-    font-size: 16px;;
+
+  .btn i {
+    font-size: 15px;
   }
 
-
   .card h2 {
-    font-size: 20px;
+    font-size: 21px;
     color: var(--primary);
     margin-bottom: 10px;
   }
@@ -84,7 +114,20 @@
   .card p {
     font-size: 15px;
     color: #555;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
+    line-height: 1.7;
+  }
+
+  .arabic-snippet {
+    background: var(--soft);
+    padding: 12px;
+    border-radius: 12px;
+    direction: rtl;
+    text-align: right;
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 18px;
+    border: 1px dashed rgba(74,144,226,0.2);
   }
 
   .btn {
@@ -96,8 +139,8 @@
     font-weight: 500;
     transition: background 0.2s ease, transform 0.2s ease;
     display: inline-flex;
-    align-items: baseline;
-    gap: 6px;
+    align-items: center;
+    gap: 8px;
   }
 
   .btn:hover {
@@ -105,52 +148,102 @@
     transform: translateY(-2px);
   }
 
+  .btn.alt {
+    background: #00a4ef;
+  }
+
+  .btn.alt:hover {
+    background: #0078d4;
+  }
+
+  .coming-soon {
+    background: #f3f4f6 !important;
+    color: #555 !important;
+    cursor: not-allowed;
+  }
+
   footer {
-    margin-top: 50px;
+    margin-top: 55px;
     font-size: 14px;
     color: #666;
     text-align: center;
+    line-height: 1.8;
   }
 
   footer a {
     color: var(--primary);
     text-decoration: none;
+    font-weight: bold;
   }
 </style>
 </head>
 <body>
-  <h1>Mashael Alanezy — English Teacher at Zainab bint Mu'awiyah High School </h1>
+
+  <h1>🌟 Mashael Alanezy — English Teacher at Zainab bint Mu'awiyah High School</h1>
+  
+  <p class="subtitle">
+    Inspiring students through fun, confidence, and smarter English learning tools — داخل الصف وخارجه ✨
+  </p>
+
   <div class="grid">
+
     <!-- Card 1 -->
     <div class="card">
-      <i class="fa-solid fa-bolt"></i>
+      <i class="fa-solid fa-bolt main-icon"></i>
       <h2>Fun Speed Reader</h2>
       <p>Practice reading faster and more confidently — one word at a time, with a sprinkle of fun and confetti! 🎉</p>
-      <a href="speed-reader/index.html" class="btn"><i class="fa-solid fa-play"></i> Launch</a>
+      <a href="speed-reader/index.html" class="btn">
+        <i class="fa-solid fa-play"></i> Launch
+      </a>
     </div>
 
-    <!-- Card 2 (placeholder example for future tools) -->
+    <!-- Card 2 -->
     <div class="card">
-      <i class="fa-solid fa-brain"></i>
+      <i class="fa-solid fa-brain main-icon"></i>
       <h2>Grammar & Vocabulary Builder</h2>
       <p>Interactive grammar & vocabulary practice to strengthen your language foundation. 📘</p>
-       <a href="grammar/index.html" class="btn"><i class="fa-solid fa-play"></i> Launch</a>
+      <a href="grammar/index.html" class="btn">
+        <i class="fa-solid fa-play"></i> Launch
+      </a>
     </div>
 
     <!-- Card 3 -->
     <div class="card">
-      <i class="fa-solid fa-headphones"></i>
+      <i class="fa-solid fa-headphones main-icon"></i>
       <h2>Listening Lounge</h2>
       <p>Future space for listening exercises and pronunciation games. 🎧</p>
-      <a href="#" class="btn" style="background: var(--default); color: #000; cursor: not-allowed;">
+      <a href="#" class="btn coming-soon">
         <i class="fa-solid fa-hourglass-half"></i> Coming Soon
       </a>
     </div>
+
+    <!-- NEW CARD: Microsoft Reading Coach -->
+    <div class="card">
+      <i class="fa-solid fa-book-open-reader main-icon" style="color:#00a4ef;"></i>
+      <h2>Microsoft Reading Coach</h2>
+      <p>
+        Personalized reading practice powered by AI — helps students improve fluency, pronunciation, and confidence through guided reading. 📚
+      </p>
+
+      <div class="arabic-snippet">
+        مدرب القراءة من مايكروسوفت يساعد الطلاب على تحسين الطلاقة والنطق والثقة باللغة الإنجليزية عبر تدريب ذكي وتفاعلي.
+      </div>
+
+      <a href="https://coach.microsoft.com/en-us" target="_blank" class="btn alt">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Reading Coach
+      </a>
+    </div>
+
   </div>
 
   <footer>
     <p>Made with 💙 by Miss Mashael • Dedicated to all Zainab bint Mu'awiyah High School students 🌟</p>
-    <p><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></p>
+    <p>
+      <a href="contact.html">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </a>
+    </p>
   </footer>
+
 </body>
 </html>
