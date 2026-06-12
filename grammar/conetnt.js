@@ -1997,5 +1997,225 @@ const CONTENT = {
     }
   ]
 }
-};
+,
 
+"u10": {
+  "grammar": [
+    {
+      "question": "When I arrived, they ______ already left.",
+      "options": ["A) have", "B) had", "C) has", "D) were"],
+      "correct": "B"
+    },
+    {
+      "question": "She ______ finished her work before dinner.",
+      "options": ["A) had", "B) has", "C) have", "D) did"],
+      "correct": "A"
+    },
+    {
+      "question": "We couldn’t go in because we ______ the key.",
+      "options": ["A) forget", "B) forgot", "C) had forgotten", "D) forgetting"],
+      "correct": "C"
+    },
+    {
+      "question": "It ______ be a plane. It’s too small.",
+      "options": ["A) must", "B) might", "C) can’t", "D) could"],
+      "correct": "C"
+    },
+    {
+      "question": "He ______ be at home. The lights are on.",
+      "options": ["A) can’t", "B) must", "C) might not", "D) couldn’t"],
+      "correct": "B"
+    },
+    {
+      "question": "That sound ______ be a helicopter. I’m not sure.",
+      "options": ["A) must", "B) can’t", "C) might", "D) couldn’t"],
+      "correct": "C"
+    },
+    {
+      "question": "It was very hot, ______ we stayed inside.",
+      "options": ["A) but", "B) so", "C) or", "D) yet"],
+      "correct": "B"
+    },
+    {
+      "question": "He wanted to go out, ______ he was tired.",
+      "options": ["A) so", "B) and", "C) but", "D) or"],
+      "correct": "C"
+    },
+    {
+      "question": "______ I got home, I called my friend.",
+      "options": ["A) When", "B) Before", "C) Until", "D) While"],
+      "correct": "A"
+    },
+    {
+      "question": "She finished her homework ______ she went to bed.",
+      "options": ["A) after", "B) before", "C) when", "D) while"],
+      "correct": "B"
+    },
+    {
+      "question": "______ he was walking, he saw an accident.",
+      "options": ["A) Before", "B) Until", "C) While", "D) After"],
+      "correct": "C"
+    },
+    {
+      "question": "If you heat ice, it ______.",
+      "options": ["A) melt", "B) melts", "C) melting", "D) melted"],
+      "correct": "B"
+    },
+    {
+      "question": "If you don’t hurry, you ______ be late.",
+      "options": ["A) are", "B) will", "C) have", "D) did"],
+      "correct": "B"
+    },
+    {
+      "question": "If she studies, she ______ pass the exam.",
+      "options": ["A) will", "B) did", "C) have", "D) was"],
+      "correct": "A"
+    },
+    {
+      "question": "You ______ wear a seatbelt.",
+      "options": ["A) can", "B) must", "C) might", "D) could"],
+      "correct": "B"
+    },
+    {
+      "question": "You ______ worry. It’s not dangerous.",
+      "options": ["A) must", "B) have to", "C) don’t need to", "D) should"],
+      "correct": "C"
+    }
+  ]
+},
+
+"u11": {
+  "grammar": [
+    {
+      "question": "I didn’t study, and I failed the exam. I ______ studied harder.",
+      "options": ["A) should", "B) should have", "C) must", "D) had"],
+      "correct": "B"
+    },
+    {
+      "question": "I was rude to my friend yesterday. I ______ spoken to him like that.",
+      "options": ["A) should", "B) shouldn’t", "C) shouldn’t have", "D) mustn’t"],
+      "correct": "C"
+    },
+    {
+      "question": "I didn’t go to the doctor, and now I feel worse. I ______ gone earlier.",
+      "options": ["A) should", "B) should have", "C) must", "D) had"],
+      "correct": "B"
+    },
+    {
+      "question": "If I had studied, I ______ passed.",
+      "options": ["A) will", "B) would have", "C) have", "D) had"],
+      "correct": "B"
+    },
+    {
+      "question": "If she had left early, she ______ avoided traffic.",
+      "options": ["A) will", "B) would have", "C) can", "D) has"],
+      "correct": "B"
+    },
+    {
+      "question": "If they had worked harder, they ______ succeeded.",
+      "options": ["A) will", "B) would have", "C) are", "D) have"],
+      "correct": "B"
+    },
+    {
+      "question": "I ______ visited Paris many times.",
+      "options": ["A) have", "B) had", "C) did", "D) was"],
+      "correct": "A"
+    },
+    {
+      "question": "She ______ her homework yesterday.",
+      "options": ["A) has done", "B) have done", "C) did", "D) doing"],
+      "correct": "C"
+    },
+    {
+      "question": "I have lived here ______ 2010.",
+      "options": ["A) for", "B) since", "C) ago", "D) from"],
+      "correct": "B"
+    },
+    {
+      "question": "I moved here three years ______.",
+      "options": ["A) since", "B) for", "C) ago", "D) from"],
+      "correct": "C"
+    },
+    {
+      "question": "He has studied English ______ two years.",
+      "options": ["A) since", "B) for", "C) ago", "D) from"],
+      "correct": "B"
+    },
+    {
+      "question": "______ you help me?",
+      "options": ["A) Must", "B) Can", "C) Had", "D) Should"],
+      "correct": "B"
+    },
+    {
+      "question": "When I was young, I ______ swim.",
+      "options": ["A) can", "B) could", "C) may", "D) must"],
+      "correct": "B"
+    }
+  ]
+},
+
+"u12": {
+  "grammar": [
+    {
+      "question": "“I am tired,” he said → He said he ______ tired.",
+      "options": ["A) is", "B) was", "C) were", "D) be"],
+      "correct": "B"
+    },
+    {
+      "question": "“I have finished,” she said → She said she ______ finished.",
+      "options": ["A) has", "B) had", "C) have", "D) was"],
+      "correct": "B"
+    },
+    {
+      "question": "“I don’t like apples,” he said → He said he ______ apples.",
+      "options": ["A) don’t like", "B) didn’t like", "C) doesn’t like", "D) not like"],
+      "correct": "B"
+    },
+    {
+      "question": "“Where are you?” → He asked where I ______.",
+      "options": ["A) am", "B) was", "C) were", "D) be"],
+      "correct": "B"
+    },
+    {
+      "question": "“Do you like tea?” → He asked if I ______ tea.",
+      "options": ["A) like", "B) liked", "C) likes", "D) liking"],
+      "correct": "B"
+    },
+    {
+      "question": "“Did you go?” → He asked if I ______.",
+      "options": ["A) go", "B) went", "C) had gone", "D) going"],
+      "correct": "C"
+    },
+    {
+      "question": "A: I like pizza. B: ______",
+      "options": ["A) So do I", "B) Neither do I", "C) I don’t", "D) Me not"],
+      "correct": "A"
+    },
+    {
+      "question": "A: I don’t like tea. B: ______",
+      "options": ["A) So do I", "B) Neither do I", "C) I do", "D) Me too"],
+      "correct": "B"
+    },
+    {
+      "question": "A: I will go. B: ______",
+      "options": ["A) So will I", "B) Neither will I", "C) I don’t", "D) Me not"],
+      "correct": "A"
+    },
+    {
+      "question": "This is the place ______ I was born.",
+      "options": ["A) who", "B) which", "C) where", "D) when"],
+      "correct": "C"
+    },
+    {
+      "question": "That’s the school ______ I studied.",
+      "options": ["A) where", "B) who", "C) which", "D) when"],
+      "correct": "A"
+    },
+    {
+      "question": "This is the city ______ I live.",
+      "options": ["A) who", "B) where", "C) which", "D) when"],
+      "correct": "B"
+    }
+  ]
+}
+};
