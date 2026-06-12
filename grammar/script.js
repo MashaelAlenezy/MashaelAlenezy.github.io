@@ -100,16 +100,29 @@ document.getElementById("startBtn").onclick = () => {
       showSetupMessage("No questions are available for this unit yet.");
       return;
     }
-
+    
     if (vocabulary.length === 0) {
+      const startBtn = document.getElementById("startBtn");
+      startBtn.disabled = true;
+      let timer = 5;
       showSetupMessage(
-        "This unit has grammar questions only, so the quiz will start with grammar.",
-        "info"
-      );
-
-      setTimeout(() => {
-        startQuiz(qSet);
-      }, 900);
+          "This unit has grammar questions only, so the quiz will start with grammar in " + timer,
+          "info"
+        );
+      let interval = setInterval(() => {
+        timer--;
+        showSetupMessage(
+          "This unit has grammar questions only, so the quiz will start with grammar in " + timer,
+          "info"
+        );
+        
+        if (timer ===0) {
+            clearInterval(interval);
+          setTimeout(() => { startQuiz(qSet); }, 500);
+        }
+      }, 1000);
+      
+      
 
       return;
     }
