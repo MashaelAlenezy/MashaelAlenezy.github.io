@@ -1,0 +1,8 @@
+body{display:flex!important;flex-direction:column!important;align-items:center!important;padding:clamp(16px,5vw,50px)!important}
+body>a{max-width:850px;color:#b7493d!important;text-decoration:none;text-align:center}
+h1{font-family:Georgia,'Times New Roman',serif!important;color:#bc493e!important;font-size:clamp(25px,4vw,38px)!important;font-style:italic}
+.card{max-width:750px;width:100%;background:#fff8ed!important;border:2px solid #dca78d!important;box-shadow:7px 8px 0 #e2c5ae!important;text-align:center;padding:clamp(25px,5vw,55px)!important}
+.card:before{content:'✿  TEACHER FILE';position:absolute;top:-18px;left:20px;border:2px solid #dca78d;border-bottom:0;border-radius:12px 12px 0 0;background:#f9c2c9;padding:6px 17px;font-size:12px;font-weight:900}
+.card h2{color:#b94c40!important}.card p{color:#855e50!important;line-height:1.9!important}
+a.email{background:#d75043!important;color:#fff!important;border:2px solid #b64237!important;box-shadow:3px 4px 0 #e8b28e!important}
+footer,footer a{color:#aa6256!important}

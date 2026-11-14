@@ -1,0 +1,23 @@
+/* Homepage cards: colorful stationery file folders */
+.wrap{max-width:1060px!important}
+.hero{padding:44px 22px!important;margin-bottom:36px!important}
+.hero h1{font-size:clamp(36px,6vw,64px)!important}
+.game-shelf{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px;margin-top:12px}
+.gc{--folder:#f8c6bb;--folderborder:#c77260;display:flex!important;flex-direction:column;position:relative;isolation:isolate;gap:10px!important;margin:15px 0 0!important;min-height:255px;background:var(--folder)!important;border:2px solid var(--folderborder)!important;border-top:2px solid var(--folderborder)!important;border-radius:12px 22px 19px 19px!important;padding:38px 20px 18px!important;box-shadow:5px 6px 0 #e7cdb5!important;text-decoration:none;transition:transform .18s,box-shadow .18s;color:#784439!important}
+.gc:before{content:'LESSON FILE  ✦';position:absolute;top:-17px;left:18px;background:var(--folder);border:2px solid var(--folderborder);border-bottom:0;border-radius:10px 12px 0 0;padding:4px 12px;font-size:10px;font-weight:900;letter-spacing:1px;color:#84483b}
+.gc:after{content:'✳';position:absolute;top:17px;right:16px;font-size:25px;color:#fff8e7;opacity:.86;transform:rotate(18deg)}
+a.gc:hover{transform:translateY(-5px) rotate(-.5deg);box-shadow:9px 12px 0 #e3c4aa!important}
+.gc .t{font-family:Georgia,'Times New Roman',serif;font-size:clamp(20px,2.25vw,27px)!important;font-weight:800!important;line-height:1.22;letter-spacing:-.5px;color:#9b4038}
+.gc .s{font-size:.91rem!important;color:#81574e!important;line-height:1.5;flex:1}
+.gc .g{display:inline-flex;align-self:flex-start;align-items:center;min-height:38px;font-size:.82rem!important;color:#994638!important;background:#fff9ed;border:1.5px solid #dba58a;border-radius:40px;padding:9px 12px;margin-top:auto!important}
+.gc:nth-child(7n+1){--folder:#f9c1c5;--folderborder:#d88c97}
+.gc:nth-child(7n+2){--folder:#b8d9e0;--folderborder:#79aab6}
+.gc:nth-child(7n+3){--folder:#ffdb87;--folderborder:#d9a253}
+.gc:nth-child(7n+4){--folder:#d7d6ee;--folderborder:#a19bc6}
+.gc:nth-child(7n+5){--folder:#cce6d7;--folderborder:#92bbaa}
+.gc:nth-child(7n+6){--folder:#f5c5a0;--folderborder:#d59874}
+.gc:nth-child(7n+7){--folder:#f4d7e6;--folderborder:#d5a5bf}
+.gc:nth-child(7n+8){--folder:#c6e2e2;--folderborder:#8dbbbb}
+.note{padding:20px 0 12px!important;text-align:center;font-weight:800;color:#a46654!important}
+@media(max-width:850px){.game-shelf{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.game-shelf{grid-template-columns:1fr;gap:14px}.gc{min-height:190px;padding:32px 18px 17px!important}.hero{padding:36px 15px!important}}

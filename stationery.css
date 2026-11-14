@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap');
+/* Stationery / playful folder theme — visual-only overrides */
+:root,:root[data-theme="dark"]{--bg:#f8efdf;--card:#fffaf0;--ink:#783f36;--mut:#9b7770;--pri:#d94a3f;--acc:#ffd56e;--ok:#448c73;--bad:#cf564f;--line:#e5bb9d;color-scheme:light}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(circle at 7% 10%,#f8cfbf 0,transparent 29%),radial-gradient(circle at 92% 24%,#c7e6e7 0,transparent 28%),radial-gradient(circle at 83% 85%,#ffdf9c 0,transparent 34%),#f8efdf!important;color:var(--ink)!important;font-family:'Nunito','Segoe UI',Tahoma,Arial,sans-serif!important;min-height:100vh}
+.wrap{max-width:880px!important;margin:0 auto;padding:clamp(16px,4vw,40px)!important}
+.hero{position:relative;overflow:visible;background:#d74a3d!important;color:#fff9eb!important;border:2px solid #a93c31!important;border-radius:25px 25px 21px 21px!important;box-shadow:6px 7px 0 #eac7a6!important;padding:32px 22px!important;margin:18px 0 28px!important;text-align:center}
+.hero:before{content:'✦  THE LEARNING CLUB  ✦';position:absolute;top:-19px;left:22px;background:#ffd775;color:#a44437;border:2px solid #b65b48;border-radius:12px 12px 0 0;padding:4px 14px;font-size:11px;font-weight:900;letter-spacing:1.2px}
+.hero:after{content:'✿';position:absolute;right:20px;bottom:7px;color:#ffda80;font-size:32px;transform:rotate(18deg)}
+.hero h1{color:#fff9eb!important;font-family:Georgia,'Times New Roman',serif!important;font-weight:800;font-style:italic;font-size:clamp(29px,5vw,44px)!important;margin:2px 0 8px!important;line-height:1.14}
+.hero p{color:#fff2d7;font-weight:700;font-size:clamp(13px,2vw,17px)!important;opacity:1!important}
+.hero small{color:#ffe19c;opacity:1!important;font-weight:900;letter-spacing:1px;font-size:12px}
+.card{background:#fffaf0!important;border:2px solid #dfa98c!important;border-radius:23px!important;box-shadow:5px 6px 0 #e8cbb5!important;padding:clamp(18px,3vw,28px)!important;margin:22px 0!important;position:relative}
+#start:before,#game:before,#end:before,#lb:before{position:absolute;top:-16px;left:24px;background:#ffd779;color:#9e493b;border:2px solid #d99b78;border-bottom:0;border-radius:13px 13px 0 0;padding:3px 15px;font-size:11px;font-weight:900;letter-spacing:1px}
+#start:before{content:'✎  PLAYER FILE'}#game:before{content:'★  MISSION IN PROGRESS'}#end:before{content:'✿  RESULTS'}#lb:before{content:'♛  HALL OF FAME'}
+.card h2{color:#be4b40;font-family:Georgia,'Times New Roman',serif;font-style:italic}
+.card p{line-height:1.55}
+input{background:#fff!important;border:2px solid #e0b99b!important;border-radius:13px!important;color:#783f36!important;box-shadow:inset 0 2px 3px #f8ede4;font-family:inherit!important;max-width:100%}
+input:focus{outline:3px solid #f5c5b2;outline-offset:2px}
+button{background:#d94a3f!important;color:white!important;border:2px solid #b44337!important;border-radius:12px!important;box-shadow:2px 3px 0 #e9b18f;font-family:inherit!important;transition:transform .16s,box-shadow .16s,background .16s!important}
+button:hover{background:#bc453b!important;transform:translateY(-2px)}button:active{transform:translateY(2px)!important;box-shadow:0 0 0 #e9b18f!important}
+button.alt,.tabs button{background:#fff3e8!important;border-color:#dbad98!important;color:#8d5145!important}
+.modes{gap:12px!important;margin:16px 0!important}
+.modes button{background:#fff4e5!important;color:#88493c!important;border:2px solid #ddb39b!important;padding:17px 10px!important}
+.modes button:nth-child(3n+2){background:#e0f1ef!important;border-color:#9fc9c8!important}
+.modes button:nth-child(3n){background:#fce0e7!important;border-color:#e7b4c4!important}
+.modes button.sel{background:#ffe2a3!important;border-color:#cb5743!important;outline:3px solid #ffd77c!important;outline-offset:1px}
+#go{background:#e15a45!important;color:#fff!important;border:2px solid #b83f34!important;font-size:1.2rem!important;box-shadow:3px 5px 0 #edb494!important}
+.opts button{background:#fff5e8!important;border:2px solid #dbb79d!important;color:#7f483d!important;box-shadow:2px 3px 0 #f0dac5!important}
+.opts button.ok{background:#3d9a78!important;color:#fff!important;border-color:#327c63!important}
+.opts button.no{background:#d75c54!important;color:#fff!important;border-color:#ac443e!important}
+.bar{background:#f7e9d8;border:1px dashed #c88e76;border-radius:11px;padding:10px;margin-bottom:13px;flex-wrap:wrap;gap:7px;color:#a05243!important}
+.q{color:#75453a!important;font-size:clamp(1.1rem,3vw,1.35rem)!important;line-height:1.5}
+.fb{color:#a15843!important;padding:8px 2px}.note{color:#977266!important}
+.track{background:repeating-linear-gradient(90deg,#e0c8b0 0 12px,transparent 12px 24px)!important}
+.jar{background:#fff2dc!important;border-color:#d56559!important}.liq{background:linear-gradient(#f9d77a,#e8a24d)!important}
+.road{background:linear-gradient(#d8b99c,#d8b99c) center/100% 6px no-repeat!important}.pond{background:#c6e9e9!important;color:#497b82!important;border:2px solid #92c8ca}.field{background:#f4dfbf!important;border:2px dashed #dcad78}
+.tabs{flex-wrap:wrap;gap:8px!important}.tabs button{min-width:75px}
+.pods{padding-top:10px}.pod .nm{color:#8c443d}.pod .pt{color:#916a60!important}.pod .base{border:2px solid #c48f74;border-bottom:0}.p1 .base{background:linear-gradient(#ffda74,#efb54b)!important}.p2 .base{background:linear-gradient(#d7e9ea,#accbd0)!important}.p3 .base{background:linear-gradient(#f9b6ad,#d98970)!important}
+table{font-size:.9rem}td,th{border-bottom:1px dashed #dfbdab!important}tr:nth-child(even){background:#fbf0df}
+.starmsg{color:#bb4d3e!important}.who{color:#b6493d!important}.pole{background:linear-gradient(#c5d8da,#89aeb0)!important}
+a[href="index.html"]{color:#bd5143!important;font-size:.9rem;font-weight:900!important;display:inline-block;border:2px solid #dfac8c;border-radius:40px;background:#fff9ef;padding:8px 16px;text-decoration:none;box-shadow:2px 3px 0 #ebd0b6}
+a:focus-visible,button:focus-visible{outline:3px solid #47878b;outline-offset:3px}
+@media(max-width:520px){.wrap{padding:16px!important}.hero{margin-top:22px!important}.card{padding:18px!important}.opts{gap:8px!important}.opts button{padding:13px 8px!important}.modes button{font-size:.92rem!important}.pod .nm{font-size:.77rem!important;overflow-wrap:anywhere}.hero:before{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important}}
